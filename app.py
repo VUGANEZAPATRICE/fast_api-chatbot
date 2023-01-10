@@ -9,6 +9,7 @@ def index():
 @app.get("/about")
 def about():
     return "This is the about page"
+# At the backend
 
 # pip install fastapi uvicorn
 # uvicorn app:app --reload: run the app==>app.py:app==>app.py is the file name, app is the variable name of the FastAPI instance
